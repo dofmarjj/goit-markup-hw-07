@@ -1,0 +1,127 @@
+.footer {
+  background-color: var(--backgraund-gray-color);
+  padding: 60px 0px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.footer__adds {
+  display: flex;
+  align-items: baseline;
+  column-gap: 70px;
+}
+
+.footer__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__title {
+  display: flex;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+  span {
+    color: var(--primary-white-color);
+  }
+}
+
+.information__list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-family: inherit;
+  font-style: normal;
+}
+
+.information__addrres {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--primary-white-color);
+  transition: color 250ms var(--time-function);
+  &:hover,
+  &:focus {
+    color: var(--primary-blue-color);
+    fill: var(--primary-blue-color);
+  }
+}
+
+.information__contact {
+  font-weight: 400;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  &:hover,
+  &:focus {
+    color: var(--primary-blue-color);
+    fill: var(--primary-blue-color);
+  }
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__tekst {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.social-table_footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--primary-white-color);
+}
+
+.online {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subscribe__form {
+  display: flex;
+  column-gap: 12px;
+}
+
+.subscribe__mail {
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &:focus {
+    outline-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.subscribe__icon {
+  position: absolute;
+  right: 28px;
+  top: 13px;
+  fill: var(--primary-white-color);
+}

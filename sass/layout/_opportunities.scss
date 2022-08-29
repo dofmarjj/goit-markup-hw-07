@@ -1,0 +1,35 @@
+.opportunities {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.opportunities__list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.opportunities__block {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--backgraund-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.opportunities__title {
+  font-weight: 700;
+  line-height: 1.142;
+  text-transform: uppercase;
+  color: var(--primary-black-color);
+  margin-bottom: 10px;
+}
+
+.opportunities__item {
+  max-width: 270px;
+  font-weight: 400;
+  line-height: 1.714;
+  color: var(--second-color-tetx);
+}
